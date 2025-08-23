@@ -1,0 +1,135 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.oac-open-chat-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9998;
+    transition: all 0.3s ease;
+}
+
+.oac-open-chat-btn:hover {
+    background-color: #005a87;
+    transform: scale(1.1);
+}
+
+.oac-chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 350px;
+    max-width: 90vw;
+    height: 500px;
+    max-height: 80vh;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 9999;
+}
+
+.oac-chat-header {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.oac-close-chat {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.oac-chat-body {
+    flex-grow: 1;
+    padding: 15px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+}
+
+.oac-message {
+    margin-bottom: 10px;
+    max-width: 85%;
+    display: flex;
+}
+
+.oac-message p {
+    margin: 0;
+    padding: 10px 15px;
+    border-radius: 18px;
+    word-wrap: break-word;
+    line-height: 1.4;
+}
+
+.oac-message-bot {
+    justify-content: flex-start;
+}
+
+.oac-message-bot p {
+    background-color: #e5e5ea;
+    color: black;
+    border-top-left-radius: 4px;
+}
+
+.oac-message-user {
+    justify-content: flex-end;
+}
+
+.oac-message-user p {
+    background-color: #0073aa;
+    color: white;
+    border-top-right-radius: 4px;
+}
+
+
+.oac-chat-footer {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: white;
+}
+
+#oac-chat-input {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    padding: 8px 12px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+#oac-send-btn {
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#oac-send-btn:hover {
+    background-color: #005a87;
+}
