@@ -1,2 +1,2 @@
 # ai-chat-jules-free
-پلاگین ورپرسی هوش مصنوعی چت بات با استفاده از سرویس های رایگان خارجی بدون api و با جمع آوری اطلاعاتت از بخش های مختلف وبسایت اعم از پست تایپ های سفارشی و معروف و..
+WordPress AI chatbot plugin using free external services without API and by collecting information from different parts of the website, including custom post types
